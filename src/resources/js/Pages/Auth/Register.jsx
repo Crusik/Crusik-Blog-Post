@@ -30,7 +30,7 @@ export default function Register() {
             <form onSubmit={submit} className="bg-gray-100 rounded-xl p-5 sm:maw-w-xs mt-7 max-w-sm mx-auto">
             <Form_Input name="name" label="Name" data={data} setData={setData}/>
             <Form_Input name="username" label="Username" data={data} setData={setData}/>
-            <Form_Input name="email" label="Name" data={data} setData={setData}/>
+            <Form_Input name="email" label="Email" data={data} setData={setData}/>
             <Form_Input name="password" type='password' label="Password" data={data} setData={setData}/>
             <Form_Input name="password_confirmation" type='password' label="Confirm Password" data={data} setData={setData}/>
                 <div className="flex items-center justify-end mt-4">
